@@ -4,13 +4,67 @@
   padding: 0;
 }
 html {
-  font-size: 65.2%;
+  font-size: 62.5%;
 }
 body {
   background-color: rgba(248, 245, 237, 1);
+  padding-left: 181px;
+  padding-right: 139px;
+}
+
+.header_section {
+  width: 100%;
+  height: auto;
+}
+.navigation_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation_section--logo {
+  height: 72px;
+  width: 242px;
+  font-size: 29px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  color: #21221e;
+  margin-top: 57.5px;
+}
+
+.navigation_section--list {
+  display: flex;
+  list-style: none;
+  width: 980px;
+  height: 41px;
+  margin-top: 69.5px;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.navigation_section--list li {
+  color: rgba(51, 34, 0, 1);
+  font-size: 17px;
+  letter-spacing: -5%;
+  opacity: 80%;
+}
+.navigation_section--list li a {
+  text-decoration: none;
+}
+.navigation_section_svg--container {
+  margin-top: 49.5px;
+  display: flex;
+  gap: 10px;
+}
+.lockicon_container {
+  height: 40px;
+  border-radius: 50%;
+  background-color: #849461;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .searchicon,
 .lockicon {
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
 }
