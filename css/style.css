@@ -168,3 +168,43 @@ body {
   font-weight: 400;
   color: rgba(34, 39, 0, 1);
 }
+.main-section-recommendation-more-services {
+  display: flex;
+}
+.main-section-recommendation-more-services-option1 {
+  height: 155px;
+  width: 402px;
+  border: 5px solid rgba(127, 123, 84, 0.3);
+  margin-bottom: 80px;
+}
+.main-section-recommendation-more-services-option1-heading {
+  height: 55px;
+  width: 321px;
+  font-size: 19px;
+  font-weight: 400px;
+  line-height: 55.2px;
+  color: #222700;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.main-section-recommendation-more-services-option1-content {
+  height: 74px;
+  width: 421px;
+  font-size: 16px;
+  color: rgba(51, 34, 0, 1);
+  opacity: 80%;
+  line-height: 100%;
+  padding-left: 60px;
+  padding-right: 45px;
+}
+.main-section-recommendation-more-services-option-list {
+  list-style: none;
+  height: 663px;
+  width: 604px;
+  color: #332200;
+  opacity: 80%;
+}
+.main-section-recommendation-more-services-option-list li {
+  margin-bottom: 58px;
+  font-size: 19px;
+}
