@@ -73,6 +73,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 62px;
+  margin-bottom: 200px;
 }
 .hero-section_heading {
   height: 300px;
@@ -150,4 +151,13 @@ body {
   line-height: 36.8px;
   font-weight: 400;
   color: rgba(51, 34, 0, 1);
+}
+.main-section {
+  width: 100%;
+  height: auto;
+}
+.main-section-recommendation-wrapper {
+  width: 100%;
+  height: 1732px;
+  color: rgba(127, 123, 84, 0.3);
 }
