@@ -161,3 +161,10 @@ body {
   height: 1732px;
   color: rgba(127, 123, 84, 0.3);
 }
+.main-section-recommendation-mainheading {
+  width: 70%;
+  height: 300px;
+  font-size: 46px;
+  font-weight: 400;
+  color: rgba(34, 39, 0, 1);
+}
