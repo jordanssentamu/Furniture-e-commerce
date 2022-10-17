@@ -73,7 +73,7 @@ body {
   width: 100%;
   height: auto;
   margin-top: 62px;
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 .hero-section_heading {
   height: 300px;
@@ -158,12 +158,13 @@ body {
 }
 .main-section-recommendation-wrapper {
   width: 100%;
-  height: 1732px;
+  height: auto;
   color: rgba(127, 123, 84, 0.3);
+  margin-bottom: 150px;
 }
 .main-section-recommendation-mainheading {
   width: 70%;
-  height: 300px;
+  height: 243px;
   font-size: 46px;
   font-weight: 400;
   color: rgba(34, 39, 0, 1);
@@ -172,8 +173,8 @@ body {
   display: flex;
 }
 .main-section-recommendation-more-services-option1 {
-  height: 155px;
-  width: 402px;
+  height: 151px;
+  width: 379px;
   border: 5px solid rgba(127, 123, 84, 0.3);
   margin-bottom: 80px;
 }
@@ -203,8 +204,37 @@ body {
   width: 604px;
   color: #332200;
   opacity: 80%;
+  margin-bottom: -330px;
 }
 .main-section-recommendation-more-services-option-list li {
-  margin-bottom: 58px;
+  margin-bottom: 41px;
   font-size: 19px;
+}
+.main-section-recommendation-more-services-option-subwrapper {
+  display: flex;
+}
+.main-section-recommendation-more-services-option--subbutton {
+  border: none;
+  background: rgba(127, 123, 84, 1);
+  color: rgba(255, 255, 255, 1);
+  height: 85px;
+  width: 284px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 15px;
+}
+.main-section-recommendation-more-services-option--subtext {
+  font-size: 16px;
+  color: rgba(51, 34, 0, 1);
+  font-weight: 400;
+}
+.main-section-recommendation-more-services_main--img {
+  height: 604px;
+  width: 388px;
+  object-fit: contain;
+}
+/* second main */
+.main-section-product-container {
+  width: 100%;
+  height: auto;
 }
