@@ -358,12 +358,47 @@ body {
   width: 100%;
   height: 937px;
   text-align: center;
+  background-image: url(/css/img/map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .main-section--exclusiveoffers-heading {
   height: 300px;
   width: 100%;
-  font-size: 49px;
+  font-size: 47px;
   font-weight: 400;
   line-height: 100px;
   text-transform: uppercase;
+}
+.main-section--exclusiveoffers-text {
+  height: 37px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(51, 34, 0, 1);
+  opacity: 80%;
+  line-height: 36.8px;
+  margin-top: -61px;
+  margin-bottom: 111px;
+}
+label {
+  position: relative;
+}
+input {
+  height: 61px;
+  width: 452px;
+  border-radius: 64.5px;
+  border: 5px solid rgba(127, 123, 84, 0.3);
+}
+button {
+  position: absolute;
+  height: 44px;
+  width: 97px;
+  background-color: rgba(127, 123, 84, 1);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  left: 344px;
+  top: -17px;
 }
