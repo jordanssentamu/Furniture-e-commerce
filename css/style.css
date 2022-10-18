@@ -315,3 +315,40 @@ body {
   width: 100%;
   height: 2600px;
 }
+.main-section-craft--heading {
+  width: 70%;
+  height: 300px;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 96px;
+}
+.main-section-craft--img1-wrapper {
+  display: flex;
+}
+.main-section-craft--img1-i {
+  height: 303px;
+  width: 447px;
+  object-fit: contain;
+  margin-right: 101px;
+  margin-bottom: 100px;
+}
+.main-section-craft--img1-ii {
+  height: 399px;
+  width: 394px;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+.main-section-craft--img2-wrapper {
+  display: flex;
+}
+.main-section-craft--img2i {
+  height: 399px;
+  width: 447px;
+  object-fit: cover;
+  margin-right: 101px;
+}
+.main-section-craft--img2ii {
+  height: 263px;
+  width: 394px;
+  object-fit: contain;
+}
