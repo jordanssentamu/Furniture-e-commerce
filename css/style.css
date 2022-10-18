@@ -391,7 +391,7 @@ input {
   border-radius: 64.5px;
   border: 5px solid rgba(127, 123, 84, 0.3);
 }
-button {
+.main-section--exclusiveoffers-button {
   position: absolute;
   height: 44px;
   width: 97px;
@@ -401,4 +401,31 @@ button {
   color: white;
   left: 344px;
   top: -17px;
+}
+/* footer */
+footer-section {
+  margin-top: 35px;
+  width: 90%;
+  height: 635px;
+}
+.footer-section--component-1 {
+  display: flex;
+}
+.footer-section--component-1-i-heading {
+  height: 55px;
+  width: 175px;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgba(34, 39, 0, 1);
+  letter-spacing: -3%;
+}
+.footer-section--component-1-i-text {
+  height: 120px;
+  width: 414px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(51, 34, 0, 1);
+  opacity: 80%;
+  letter-spacing: -3%;
+  line-height: 39px;
 }
