@@ -445,3 +445,42 @@ footer-section {
   margin-bottom: 45px;
   font-size: 16px;
 }
+.footer-section--component-2 {
+  height: 96px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section--component-2-imgi {
+  height: 40px;
+  width: 235px;
+  object-fit: contain;
+}
+.footer-section--component-2-imgii {
+  height: 53px;
+  width: 235px;
+  object-fit: contain;
+}
+.footer-section--component-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section--component-3-text {
+  height: 31px;
+  width: 499px;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(34, 39, 0, 1);
+  opacity: 80%;
+}
+.footer-section--component-3-list {
+  list-style: none;
+  display: flex;
+}
+.footer-section--component-3-list li {
+  font-size: 13px;
+  color: rgba(34, 39, 0, 1);
+  opacity: 80%;
+  margin-right: 10px;
+}
