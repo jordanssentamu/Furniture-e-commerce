@@ -411,6 +411,9 @@ footer-section {
 .footer-section--component-1 {
   display: flex;
 }
+.footer-section--component-1-i {
+  margin-right: 30px;
+}
 .footer-section--component-1-i-heading {
   height: 55px;
   width: 175px;
@@ -428,4 +431,17 @@ footer-section {
   opacity: 80%;
   letter-spacing: -3%;
   line-height: 39px;
+}
+.footer-section--component-1-i-1,
+.footer-section--component-1-i-2,
+.footer-section--component-1-i-3 {
+  height: 223px;
+  width: 157px;
+  list-style: none;
+}
+.footer-section--component-1-i-1 li,
+.footer-section--component-1-i-2 li,
+.footer-section--component-1-i-3 li {
+  margin-bottom: 45px;
+  font-size: 16px;
 }
