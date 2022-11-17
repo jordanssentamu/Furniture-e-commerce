@@ -503,3 +503,28 @@ footer-section {
   opacity: 80%;
   margin-right: 10px;
 }
+/* media quries */
+@media screen and (max-width: 768px) {
+  body {
+    padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  }
+  .header_section {
+    height: 100vh;
+    padding: 10px;
+  }
+  .navigation_section {
+  
+    
+    
+  }
+  .navigation_section--list, .navigation_section--logo, .navigation_section_svg--container {
+    margin: 0;
+  }
+  .navigation_section--list {
+    /* width: 60%; */
+  }
+  
+
+}
