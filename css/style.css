@@ -534,11 +534,17 @@ element.style {
 .hero-section_heading  {
   font-size: 5rem;
   line-height: 116px;
+  height: 250px;
 }
 .hero-section_heading-img {
   position: absolute;
   top: 193px;
   left: 296px;
+}
+.hero-section-text {
+  margin: 0;
+  width: 100%;
+  font-size: 2.8rem;
 }
   
 
