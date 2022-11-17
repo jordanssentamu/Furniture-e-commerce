@@ -511,7 +511,7 @@ footer-section {
   padding-top: 20px;
   }
   .header_section {
-    height: 100vh;
+    
     padding: 10px;
   }
   .navigation_section {
@@ -525,6 +525,16 @@ footer-section {
   .navigation_section--list {
     /* width: 60%; */
   }
+  
+element.style {
+}
+.hero-section {
+  margin: 0px;
+}
+.hero-section_heading  {
+  font-size: 5rem;
+  line-height: 116px;
+}
   
 
 }
