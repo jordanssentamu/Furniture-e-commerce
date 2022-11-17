@@ -594,6 +594,10 @@ footer-section {
   justify-content: space-between;
   width: 53%;
 }
+.main-section-recommendation-more-services-option-subwrapper p {
+  font-size: 2rem;
+  width: 100%;
+}
 .main-section-recommendation-more-services-option-subwrapper p:hover {
   cursor: pointer;
   background: rgba(127, 123, 84, 1);
@@ -602,6 +606,11 @@ footer-section {
   width: 161px;
   font-size: 16px;
   font-weight: 400;
+}
+.main-section-recommendation-more-services_main--img {
+  object-fit: contain;
+  width: 0%;
+
 }
 
 }
