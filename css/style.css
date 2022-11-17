@@ -535,6 +535,11 @@ element.style {
   font-size: 5rem;
   line-height: 116px;
 }
+.hero-section_heading-img {
+  position: absolute;
+  top: 193px;
+  left: 296px;
+}
   
 
 }
