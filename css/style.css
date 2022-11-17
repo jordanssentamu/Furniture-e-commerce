@@ -227,9 +227,16 @@ body {
 }
 .main-section-recommendation-more-services-option-subwrapper {
   display: flex;
+  justify-content: space-around;
 }
-.main-section-recommendation-more-services-option--subbutton {
-  border: none;
+
+.main-section-recommendation-more-services-option-subwrapper p {
+  font-size: 16px;
+  color: rgba(51, 34, 0, 1);
+  font-weight: 400;
+}
+.main-section-recommendation-more-services-option-subwrapper p:hover {
+  cursor: pointer;
   background: rgba(127, 123, 84, 1);
   color: rgba(255, 255, 255, 1);
   height: 41px;
@@ -237,11 +244,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-right: 15px;
-}
-.main-section-recommendation-more-services-option--subtext {
-  font-size: 16px;
-  color: rgba(51, 34, 0, 1);
-  font-weight: 400;
 }
 .main-section-recommendation-more-services_main--img {
   height: 604px;
@@ -526,13 +528,11 @@ footer-section {
     /* width: 60%; */
   }
   
-element.style {
-}
 .hero-section {
   margin: 0px;
 }
 .hero-section_heading  {
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 116px;
   height: 250px;
 }
@@ -565,6 +565,43 @@ element.style {
 .hero-section_more-details-main--text {
   font-size: 2rem;
 }
-  
+.main-section-recommendation-mainheading  {
+  margin-top: 207px;
+}
+.main-section-recommendation-mainheading {
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  height: 105px;height: 105px;
+}
+.main-section-recommendation-more-services {
+  flex-direction: column;
+}
+.main-section-recommendation-more-services-options {
+  margin: 0px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.main-section-recommendation-more-services-option1 {
+  width: 64%;
+  margin-bottom: 35px;
+}
+.main-section-recommendation-more-services-option1-content {
+  font-size: 2rem;
+  width: 100%;
+}
+.main-section-recommendation-more-services-option-subwrapper {
+  justify-content: space-between;
+  width: 53%;
+}
+.main-section-recommendation-more-services-option-subwrapper p:hover {
+  cursor: pointer;
+  background: rgba(127, 123, 84, 1);
+  color: rgba(255, 255, 255, 1);
+  height: 41px;
+  width: 161px;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 }
